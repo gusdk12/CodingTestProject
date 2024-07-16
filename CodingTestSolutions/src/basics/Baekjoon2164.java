@@ -24,6 +24,8 @@ public class Baekjoon2164 {
         }
         // 마지막 남은 카드 출력
         System.out.println(cards.poll());
+
+        sc.close();
     }
 }
 

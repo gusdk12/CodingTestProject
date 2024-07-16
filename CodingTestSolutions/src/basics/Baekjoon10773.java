@@ -26,6 +26,7 @@ public class Baekjoon10773 {
             sum += pay;
         }
         System.out.println(sum);
-    }
 
+        sc.close();
+    }
 }
