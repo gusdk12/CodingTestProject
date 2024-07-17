@@ -16,12 +16,14 @@ public class Baekjoon16953 {
                 B /= 10;
             } else {    // 연산이 되지 않을 경우 -1 출력
                 System.out.println(-1);
+                sc.close();
                 return;
             }
 
             // 만약 B가 A보다 작으면 연산이 될 수 없음
             if (B < A) {
                 System.out.println(-1);
+                sc.close();
                 return;
             }
             cnt++;  // 연산이 될 때마다 cnt 1씩 증가
