@@ -3,7 +3,7 @@ package basics;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Programmers_Race {
+public class Programmers178871 {
     public String[] solution(String[] players, String[] callings) {
         Map<String, Integer> player = new HashMap<>();
 
