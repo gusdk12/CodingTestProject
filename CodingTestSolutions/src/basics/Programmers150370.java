@@ -39,4 +39,3 @@ public class Programmers150370 {
         return (year * 12 * 28) + (month * 28) + day;
     }
 }
-}
