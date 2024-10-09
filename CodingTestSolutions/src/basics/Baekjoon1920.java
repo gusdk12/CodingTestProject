@@ -38,5 +38,6 @@ public class Baekjoon1920 {
             }
         }
         System.out.println(sb);
+        br.close();
     }
 }
