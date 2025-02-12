@@ -20,7 +20,7 @@ public class Programmers17680 {
                 caches.add(city); // 새로 맨 뒤에 추가
                 answer += 1;
             } else { // 캐시에 없는 경우
-                if(caches.size() >= cacheSize) { // 캐시가 꽉 찼을 때
+                if(caches.size() == cacheSize) { // 캐시가 꽉 찼을 때
                     caches.remove(0); // 오랫동안 사용하지 않은 캐시 제거
                     caches.add(city); // 맨 뒤에 새로 추가
                 } else { // 캐시가 비어있을 경우
